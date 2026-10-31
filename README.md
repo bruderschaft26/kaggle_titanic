@@ -22,7 +22,7 @@ Goal: learn basics of pandas and scikit-learn. Don't chase the leaderboard. Impl
 - Sex is the most impactful factor in survival rates.
 - Pclass difference between 1st and 3rd is almost 3 times. Worst rates for men 3rd class, best for women 1st class.
 - Age median by title is more accurate than by global median.
-- PassengerID can make model do inaccurate predictions. Basically, it is a garbage value in training.
+- PassengerId is pure noise, yet the random forest used it in splits.
 - Family Size is not linear factor. Logistic Regression cannot take this into account.
 - Is Alone don't add new data. Family Size is enough.
 
